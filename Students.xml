@@ -46,3 +46,35 @@
     <string name="success_delete">Deletion successful</string>
 </resources>
 
+<!-- XSLT Transformation File -->
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <html>
+            <head>
+                <title>Student Management Strings</title>
+                <style>
+                    body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
+                    table { border-collapse: collapse; width: 50%; margin: auto; background: white; }
+                    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                    th { background-color: #6200EE; color: white; }
+                </style>
+            </head>
+            <body>
+                <h2 style="text-align:center;">Student Management System Strings</h2>
+                <table>
+                    <tr>
+                        <th>Key</th>
+                        <th>Value</th>
+                    </tr>
+                    <xsl:for-each select="resources/string">
+                        <tr>
+                            <td><xsl:value-of select="@name"/></td>
+                            <td><xsl:value-of select="."/></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
