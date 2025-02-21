@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors -->
+    <color name="primary">#6200EE</color>
+    <color name="primaryVariant">#3700B3</color>
+    <color name="secondary">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Strings -->
+    <string name="app_name">Student Management</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="student_list">Student List</string>
+    <string name="add_student">Add Student</string>
+    <string name="student_name">Student Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="course">Course</string>
+    <string name="year">Year</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="logout">Logout</string>
+
+    <!-- Layout elements -->
+    <string name="welcome_message">Welcome to Student Management System</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">Don't have an account? Register</string>
+    <string name="have_account">Already have an account? Login</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_empty_field">This field cannot be empty</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_auth_failed">Authentication failed</string>
+
+    <!-- Success Messages -->
+    <string name="success_registration">Registration successful</string>
+    <string name="success_login">Login successful</string>
+    <string name="success_update">Update successful</string>
+    <string name="success_delete">Deletion successful</string>
+</resources>
+
